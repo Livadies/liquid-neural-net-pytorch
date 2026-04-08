@@ -38,7 +38,7 @@ While standard binary classification approaches get stuck at ~50% accuracy (Loss
 
 ### Visualizing the Liquid State
 
-*(Insert your Kaggle charts here)*
+
 > **Top:** The noisy input signal (Market Chaos) vs LNN Prediction.
 > **Bottom:** The continuous hidden states $h(t)$. Notice how the orange/red curves (high $\tau$) build a smooth trend, while blue/purple curves (low $\tau$) vibrate with the market noise.
 

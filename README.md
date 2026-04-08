@@ -37,7 +37,7 @@ While standard binary classification approaches get stuck at ~50% accuracy (Loss
 * **Neuron Viscosity Distribution:** The network naturally developed "fast" neurons ($\tau \approx 0.54$) and "slow" context neurons ($\tau \approx 2.54$).
 
 ### Visualizing the Liquid State
-
+![LNN State Visualization](lnn_results.png)
 
 > **Top:** The noisy input signal (Market Chaos) vs LNN Prediction.
 > **Bottom:** The continuous hidden states $h(t)$. Notice how the orange/red curves (high $\tau$) build a smooth trend, while blue/purple curves (low $\tau$) vibrate with the market noise.
